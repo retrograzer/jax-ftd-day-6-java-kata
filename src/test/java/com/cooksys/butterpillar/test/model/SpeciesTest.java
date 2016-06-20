@@ -58,18 +58,18 @@ public class SpeciesTest {
 		this.species.setGrowthModel(this.model);
 
 		this.butterpillars = new Butterpillar[5];
-		this.butterpillars[0] = this.species.createButterpillar(0.5,20);
-		this.butterpillars[1] = this.species.createButterpillar(0.6,17);
-		this.butterpillars[2] = this.species.createButterpillar(0.5,21);
-		this.butterpillars[3] = this.species.createButterpillar(0.4,20);
-		this.butterpillars[4] = this.species.createButterpillar(0.7,18);
+		this.butterpillars[0] = this.species.createButterpillar(0.5, 20);
+		this.butterpillars[1] = this.species.createButterpillar(0.6, 17);
+		this.butterpillars[2] = this.species.createButterpillar(0.5, 21);
+		this.butterpillars[3] = this.species.createButterpillar(0.4, 20);
+		this.butterpillars[4] = this.species.createButterpillar(0.7, 18);
 
 		this.catterflies = new Catterfly[5];
-		this.catterflies[0] = this.species.createCatterfly(0.6,5);
-		this.catterflies[1] = this.species.createCatterfly(0.72,4.25);
-		this.catterflies[2] = this.species.createCatterfly(0.6,5.25);
-		this.catterflies[3] = this.species.createCatterfly(0.48,5.0);
-		this.catterflies[4] = this.species.createCatterfly(0.84,4.5);
+		this.catterflies[0] = this.species.createCatterfly(0.6, 5);
+		this.catterflies[1] = this.species.createCatterfly(0.72, 4.25);
+		this.catterflies[2] = this.species.createCatterfly(0.6, 5.25);
+		this.catterflies[3] = this.species.createCatterfly(0.48, 5.0);
+		this.catterflies[4] = this.species.createCatterfly(0.84, 4.5);
 	}
 
 	@After
