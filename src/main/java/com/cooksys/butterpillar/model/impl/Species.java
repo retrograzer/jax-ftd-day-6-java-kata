@@ -43,7 +43,7 @@ public class Species implements ISpecies {
 
 	@Override
 	public ICatterfly[] convert(IButterpillar[] butterpillars) {
-		ICatterfly[] catter = new Catterfly[butterpillars.length];
+		ICatterfly[] catter = new ICatterfly[butterpillars.length];
 		for (int i = 0; i < butterpillars.length; i++) {
 			catter[i] = growthModel.butterpillarToCatterfly(butterpillars[i]);
 		}
@@ -52,7 +52,7 @@ public class Species implements ISpecies {
 
 	@Override
 	public IButterpillar[] convert(ICatterfly[] catterflies) {
-		IButterpillar[] butter = new Butterpillar[catterflies.length];
+		IButterpillar[] butter = new IButterpillar[catterflies.length];
 		for (int i = 0; i < catterflies.length; i++) {
 			butter[i] = growthModel.catterflyToButterpillar(catterflies[i]);
 		}
